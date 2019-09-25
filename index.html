@@ -14,35 +14,46 @@
 <div id="page-wrap">
 
   <!--The navbar code below is a combination of 
-    two different Bootstrap navbars.  May not be ideal, but served as a solution-->
-<header>
-   <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand text-white" href="#"><h2 id="logo">Juan Rivera</h2></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>   
-      
-      <span class="navbar-text ml-auto">
+    two different Bootstrap navbars.  May not be ideal, but served as a solution.
+    Also incorporated Bootstrap colmun system in navbar and throughout page covered in Week 2.-->
+
+<div class="container">
+   <div class="row">
+     <div class="col-md-3"></div>
+     <header>
+       <nav class="navbar navbar-expand-lg navbar-light bg-white col-md-4">
+        <a class="navbar-brand text-white" href="#"><h2 id="logo">Juan Rivera</h2></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>   
+        <div class="col-md-2 ml-auto">
+        <span class="navbar-text">
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+          <li class="nav-item active">
+          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+          </li>
           </ul>
         </span>
+         </div>
+        
+
       </div>
-    </div>
-   </nav>
- </header>
+    </nav>
+   </header>
+   <div class="col-md-3"></div>
+  </div>
+ </div>
       <br>        
       <div class="container">
+        <div class="row">
+        <div class="col-md">
         <div class="content">
           <h2>About Me</h2>
         <HR>
@@ -66,7 +77,9 @@
               but I'll save my war stories for another day.</p>
     
         </div>
-    </div>
+        </div>
+        </div>
+      </div>
     
 </div>  
 </body>

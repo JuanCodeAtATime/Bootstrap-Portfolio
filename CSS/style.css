@@ -8,9 +8,22 @@ body {
 /*Centering the website took hours to figure out....The #page-wrap "hack" worked like a champ.
 Found the solution on https://css-tricks.com/snippets/css/centering-a-website/ */
 
+header {
+    width: 960px;
+}
+
 #page-wrap {
     width: 960px;
     margin: 0 auto;
+}
+
+.col-md {
+    width: 960px;
+}
+
+.navbar-text {
+    width: inherit;
+   
 }
 
 .navbar-brand {
@@ -25,10 +38,6 @@ Found the solution on https://css-tricks.com/snippets/css/centering-a-website/ *
     margin-bottom: 0;
     margin-left: 0px;
 
-}
-
-nav {
-    padding-right: 10px;
 }
 
 .content {
@@ -62,14 +71,15 @@ h2 {
     color: #ffffff;
 
 }
-.container {
-    
-}
 
 .btn {
     background-color: teal;
     color: #ffffff;
 
+}
+
+.row {
+    background-color: #ffffff;
 }
 
 

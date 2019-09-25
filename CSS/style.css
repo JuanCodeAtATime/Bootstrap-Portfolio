@@ -3,48 +3,73 @@ body {
     background-image: url(superhornets.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0;
+        
+}
+/*Centering the website took hours to figure out....The #page-wrap "hack" worked like a champ.
+Found the solution on https://css-tricks.com/snippets/css/centering-a-website/ */
+
+#page-wrap {
+    width: 960px;
+    margin: 0 auto;
 }
 
 .navbar-brand {
     background-color: teal;
     padding: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 22px;
+    padding-right: 22px;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif; 
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 0px;
+
+}
+
+nav {
+    padding-right: 10px;
 }
 
 .content {
-    width: 960px;
+    width: 100%;
     height: auto;
     background-color: white;
     padding: 5px 8px 5px 8px; 
     background-position: center;
-    margin: 0;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
-
-    
+    min-height: 400px;
+   
 }
 
+.headshot {
+    float: left;
+    margin-right: 10px;
+}
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: teal;
     font-weight: bold;
-    /*Specified Heading font-family within content div*/
+    
 }
 
 #logo {
+    /* logo ID is also h2.  Specified color just for the 'Juan Rivera' logo */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
     color: #ffffff;
-}
 
+}
 .container {
     
 }
 
+.btn {
+    background-color: teal;
+    color: #ffffff;
+
+}
 
 

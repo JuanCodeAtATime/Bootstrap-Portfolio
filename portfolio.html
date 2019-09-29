@@ -1,75 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-    <title>JR's Bootstrap Portfolio</title>
-</head>
-<body>
-<div id="page-wrap">
 
-  <!--The navbar code below is a combination of 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <title>JR's Bootstrap Portfolio</title>
+</head>
+
+<body>
+  <div id="page-wrap">
+    <!--The navbar code below is a combination of 
     two different Bootstrap navbars.  May not be ideal, but served as a solution.
     Also incorporated Bootstrap colmun system in navbar and throughout page covered in Week 2.-->
-
-<div class="container">
-<div class="row">
+    <div class="container">
+      <div class="row">
         <div class="col-md-3 col-sm-2 col-xs-2"> </div>
         <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-         
-         <a class="navbar-brand text-white" href="#"><h2 id="logo">Juan Rivera</h2></a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>   
-          
+          <nav class="navbar navbar-expand-md navbar-light bg-white">
 
-        <div class="navbar-text col-md-9 col-sm-6 col-xs-3">
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav">
-          <li class="nav-item active">
-          <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          </ul>
-        </div>
-        </div>        
-        
-       
-      </nav>
-      </header>
-    
-</div>
-</div>
+            <a class="navbar-brand text-white" href="#">
+              <h2 id="logo">Juan Rivera</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+              aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-text col-md-9 col-sm-6 col-xs-3">
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
 
-      <br>        
-      <div class="container">
+          </nav>
+        </header>
+
+      </div>
+    </div>
+    <br>
+    <div class="main">
+      <div class="content">
         <div class="row">
-        <div class="col-md col-sm col-xs">
-        <div class="content">
-          <h2>Portfolio</h2>
-          <hr>
-          
-
-
-
+          <div class="col-md-12 col-sm col-xs">
+            <h2>Portfolio</h2>
+            <hr>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="polaroid" id="img-1">
+              <img src="img1.jpeg" alt="Program Dev picture" style="width:100%">
+              <p class="banner">Program Developer</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="polaroid" id="img-2">
+              <img src="img2.PNG" alt="Instructional Designer picture" style="width:100%">
+              <p class="banner">Instructional Designer</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="polaroid" id="img-3">
+              <img src="img4.png" alt="Primal Platoon Logo and url" style="width:100%">
+              <p class="banner">Founder at
+                <a href="https://www.primalplatoon.com">primalplatoon.com</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="polaroid" id="img-4">
+              <img src="img5.jpg" alt="Nutrition Educator" style="width:100%">
+              <p class="banner">Nutrition Educator</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="polaroid" id="img-5">
+              <img src="img3.PNG" alt="Program Dev picture" style="width:100%">
+              <p class="banner">US Army Veteran</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class="polaroid" id="img-6">
+              <img src="Knowldge.jpg" alt="Aspiring Web Developer" style="width:100%">
+              <p class="banner">Aspiring Web Developer</p>
+            </div>
+          </div>
         </div>
       </div>
-</div>
+    </div>
+  </div>
+
+
+  </div>
+  </div>
+  <footer>
+    <div class="footer">
+      <p class="text-white">Juan Rivera | &copy;Copyright 2019.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZObmdut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
